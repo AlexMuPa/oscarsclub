@@ -1,0 +1,109 @@
+# oscarsclub
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href= "css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+
+    <title>Oscarsclub</title>
+</head>
+<body>
+    <header>
+        <a id="enlacecabecera" href="index.html"><span class="negrita">oscars</span><span class="vermell">club</span></a>
+        <nav>
+            <ul>
+                <li><a href="clubes-tematicos.html">CLUBES TEMÁTICOS</a></li>
+                <li><a href="sesiones-2020.html">SESIONES 2020</a></li>
+            </ul>
+        </nav>
+        <button><a>Inicar sesión</a></button>
+    </header>
+    <main>
+        <section id="oscars">
+            <h1>¿Qué es Oscars Club?</h1>
+            <p>Oscars Club organiza clubes virtuales de cine de diversos géneros y en diferentes lenguas, para los amantes del 
+                cine que quieran compartir reflexiones y debatir sobre las películas que les interesan sin
+                 necesidad de tener que ir a un espacio físico.</p>
+        </section>
+        <section>
+            <h1>¿Cómo funciona?</h1>
+            <div id="funcionamiento">
+            <figure>
+            <img src="img/howto-register.png" height="130px" width="130px">
+            <figcaption>Regístrate</figcaption>
+            </figure>
+            <figure>
+            <img src="img/howto-club.png" height="130px" width="130px">
+            <figcaption>Inscríbete en un club</figcaption>
+            </figure>
+            <figure>
+            <img src="img/howto-film.png" height="130px" width="130px">
+            <figcaption>Elige una película</figcaption>
+            </figure>
+            <figure>
+            <img src="img/howto-speech.png" height="130px" width="130px">
+            <figcaption>Disfruta del debate </figcaption>
+            </figure>
+            </div>
+        </section>
+        <section>
+            <h1> Únete al club</h1>
+            <div id="unete">
+                <p id="textounete">
+                    Estamos mirando tu próxima película preferida.<br>
+                    ¿Te lo vas a perder?
+                </p>
+            <div id="formulario">
+                <form>
+                    <ul>
+                        <li><input name="Nombre" id="nombre" type="text" pattern="[A-Za-z'ñç\-]{2,64}" required placeholder="Nombre"></li>
+                        <li><input name="Email" id="correo" type="email" placeholder="Correo electrónico" required></li>
+                        <li><input name="Contraseña" id="contraseña" type="password" placeholder="Contraseña" required></li>
+                    </ul>
+                    <p>
+                        INFORMACIÓN SOBRE PROTECCIÓN DE DATOS DE OSCARS CLUB. Finalidades: recogida de datos para la inscripción como
+                        socio del interesado.Legitimación: Consentimiento del interesado. Destinatarios: No están previstas cesiones de datos a terceros, salvo obligación legal. Derechos: Puede retirar su consentimiento en cualquier momento, así como acceder, rectificar, suprimir sus datos y otros derechos dirigiéndose a oscarsclub@oscarsclub.org.
+                        Información Adicional: Puede ampliar la información en el enlace de <a>Aviso Legal</a> 
+                        y <a>Política de privacidad</a>.
+                    </p>
+                    <div id="terminos">
+                    <label for="aceptotermimos">
+                        <input type="checkbox" name="aceptarterminos" id="aceptoterminos">
+                        He leído y acepto la política de privacidad
+                    </label>
+                    </div>
+                    <button type="submit">REGÍSTRATE</button>
+                </form>
+                
+            </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <ul>
+            <li>Sobre nosotros</li>
+            <li class="disco">Aviso legal</li>
+            <li class="disco">Política de privacidad</li>
+        </ul>
+
+        <ul id="segunda">
+            <li>Facebook</li>
+            <li class="disco">Twitter</li>
+            <li class="disco">Youtube</li>
+        </ul>
+        <div id="infofooter">
+            <p>© 2020 Alex Muñoz Palos</p>
+            <p>Iconos flaticon.com </p>
+            <p>Imágenes unsplash.com </p>
+        </div>
+        <p id="xwegde">&#8896</p>
+    </footer>
+    
+</body>
+</html>
