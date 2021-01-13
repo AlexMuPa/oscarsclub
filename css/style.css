@@ -135,7 +135,8 @@ form button{
 }
 @media screen and (min-width: 800px){
 main{
-    width: 850px;
+    /*width: 850px;*/
+    width:70vw;
     margin:auto;
 }
 
