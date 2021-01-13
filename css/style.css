@@ -152,6 +152,7 @@ form ul li input{
     width: auto;
     height: auto;
     border-style: none solid none solid;
+    padding-right:0;
 }
 form ul{
     list-style: none;
