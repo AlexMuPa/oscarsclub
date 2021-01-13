@@ -149,8 +149,8 @@ form button{
     font-size: 1.3rem;
 }
 form ul li input{
-    width: 90%;
-    height: 90%;
+    width: auto;
+    height: auto;
     border-style: none solid none solid;
 }
 form ul{
@@ -178,8 +178,8 @@ main{
     align-items: center;
 }
 #funcionamiento figure{
-    min-width: 130px;
-    min-height: 130px;
+    /*min-width: 130px;*/
+    /*min-height: 130px;*/
     max-width: 15%;
     max-height: 15%;
 }
