@@ -164,7 +164,11 @@ form ul{
 #formulario form p{
     font-size: 0.5rem;
 }
-
+#clubes{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
 #clubes figure{
     display: table;
     /*min-height: 80px;*/
