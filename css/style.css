@@ -8,7 +8,7 @@ body{
 header {
     
     color: black;
-    height: 150px;
+    height: 180px;
     width: 100%;
     overflow: auto;
     font-family: 'Open Sans', Helvetica, sans-serif;
@@ -27,7 +27,7 @@ a:hover{
 }
 
 #enlacecabecera{
-    justify-content: center;
+    margin:auto;
     display: block;
     height:auto;
     background: url(../img/oscarsclub-isologo.png) no-repeat;
@@ -76,6 +76,7 @@ button{
     width: 35%;
     height: 40%;
     justify-content: center;
+    margin: auto;
 }
 button a{
     color: rgb(255,255,255)
