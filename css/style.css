@@ -8,7 +8,7 @@ body{
 header {
     
     color: black;
-    height: 90px;
+    height: 150px;
     width: 100%;
     overflow: auto;
     font-family: 'Open Sans', Helvetica, sans-serif;
@@ -16,6 +16,7 @@ header {
 header{
     display:flex;
     flex-direction: column;
+    justify-content:center;
 }
 a{
     color:rgb(155, 23, 0);
