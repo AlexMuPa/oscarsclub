@@ -73,8 +73,8 @@ button{
     color: white;
     background-color: rgb(155, 23, 0);
     padding: 0;
-    width: 35%;
-    height: 40%;
+    width: 60px;
+    height: 30px;
     justify-content: center;
     margin: auto;
 }
