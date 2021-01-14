@@ -51,15 +51,15 @@ nav{
 nav ul{
     /*display: inline-block;*/
     display:flex;
-    justify-content: center;
     list-style: none;
+    padding-left:0;
     /*float:left;*/
 }
 
 nav ul li{
     font-size: 0.8rem;
     float:left;
-    margin: 0 5px 0 5px;
+    margin: 10 5px 0 5px;
     font-weight: bold;
 
 }
@@ -76,7 +76,7 @@ button{
     padding: 0;
     width: 90px;
     height: 30px;
-    justify-content: center;
+    margin: 5px 0 5px 0;
     /*margin: auto;*/
 }
 button a{
@@ -92,7 +92,6 @@ footer{
 }
 #primera{
     grid-area: informacion;
-    margin-top:4%
 }
 #primera ul{
     display: inline-block;
@@ -101,7 +100,6 @@ footer{
 }
 #segunda{
     grid-area: redes;
-    margin-top:4%
 }
 #segunda ul{
     display: inline-block;
@@ -131,7 +129,6 @@ footer ul .disco{
 }
 #infofooter{
     font-size: 0.6rem;
-    margin-top:10%;
     margin-left: 0.7%;
     grid-area: informacion;
 }
