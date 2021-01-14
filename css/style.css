@@ -8,7 +8,7 @@ body{
 header {
     
     color: black;
-    height: 200px;
+    height: 150px;
     width: 100%;
     overflow: auto;
     font-family: 'Open Sans', Helvetica, sans-serif;
@@ -87,9 +87,8 @@ footer{
     background-color: rgb(67, 58, 68);
     color: white;
     font-family: 'Open Sans', Helvetica, sans-serif;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "informacion redes";
+    display: flex;
+    flex-direction: column;
 }
 #primera{
     grid-area: informacion;
@@ -102,7 +101,6 @@ footer{
 }
 #segunda{
     grid-area: redes;
-    margin-left: auto;
     margin-top:4%
 }
 #segunda ul{
