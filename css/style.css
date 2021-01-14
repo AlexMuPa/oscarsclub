@@ -16,7 +16,7 @@ header {
 header{
     display:flex;
     flex-direction: column;
-    items-align:center;
+    align-items:center;
     justify-content: center;
 }
 a{
