@@ -13,6 +13,10 @@ header {
     overflow: auto;
     font-family: 'Open Sans', Helvetica, sans-serif;
 }
+header{
+    display:flex;
+    flex-direction: column;
+}
 a{
     color:rgb(155, 23, 0);
 }
@@ -22,13 +26,13 @@ a:hover{
 }
 
 #enlacecabecera{
+    justify-content: center;
     display: block;
-    height:100%;
+    height:auto;
     background: url(../img/oscarsclub-isologo.png) no-repeat;
-    padding-left: 3%;
+    padding-left: 10%;
     font-size: 1.3rem;
-    background-size:22%;
-    float:left;
+    background-size:9%;
     color: rgb(28, 28, 28);
     /*
     margin-left: 17%;
@@ -38,12 +42,16 @@ a:hover{
 nav{
     text-align: center;
 }
+nav{
+    display:flex;
+    justify-content: center;
+}
 nav ul{
-    display: inline-block;
-    margin-top:7px;
+    /*display: inline-block;*/
+    display:flex;
+    justify-content: center;
     list-style: none;
-    margin-left: 27%;
-    float:left;
+    /*float:left;*/
 }
 
 nav ul li{
@@ -51,8 +59,10 @@ nav ul li{
     float:left;
     margin: 0 5px 0 5px;
     font-weight: bold;
-    font-style: italic;
 
+}
+nav ul li a{
+    color: rgb(28,28,28);
 }
 nav ul li a:hover{
     color: rgb(28,28,28);
@@ -61,33 +71,50 @@ nav ul li a:hover{
 button{
     color: white;
     background-color: rgb(155, 23, 0);
-    padding: 7px 17px;
-    margin-left: 30%;
+    padding: 0;
+    width: 35%;
+    height: 40%;
+    justify-content: center;
+}
+button a{
+    color: rgb(255,255,255)
 }
 footer{
     height: 130px;
     background-color: rgb(67, 58, 68);
     color: white;
     font-family: 'Open Sans', Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "informacion redes";
 }
-footer ul{
+#primera{
+    grid-area: informacion;
+    margin-top:4%
+}
+#primera ul{
     display: inline-block;
-    margin-top:7px;
-    list-style: none;
-    margin-top:3%;
+    padding-left:0;
     /*float: left;*/
 }
-footer #segunda{
-    margin-left: 58%;
+#segunda{
+    grid-area: redes;
+    margin-left: auto;
+    margin-top:4%
+}
+#segunda ul{
+    display: inline-block;
 }
 
+
 footer ul li{
+    list-style: none;
     font-size: 0.6rem;
     float:left;
+    padding-left: 0;
     margin: 0 15px 0 5px;
     font-weight: bold;
  
-
 }
 footer ul .disco{
     list-style-type: disc;
@@ -103,15 +130,24 @@ footer ul .disco{
 }
 #infofooter{
     font-size: 0.6rem;
-    margin-left: 3.4%;
-    float: left;
+    margin-top:10%;
+    margin-left: 0.7%;
+    grid-area: informacion;
 }
 #infofooter p{
     margin-top:3px;
     margin-bottom: 3px;
 }
+#contenidor{
+    grid-area: redes;
+    margin-right:5px;
+    margin-left:auto;
+    margin-top:15%;
+}
 #xwegde{
-    margin-left: 95.8%;
+    grid-area: redes;
+    margin-left:auto;
+    margin-top: 10%;
 }
 /*La mayoría del formato que necesitamos dar es para pantallas grandes. Para pequeñas será poco */
 h1{
