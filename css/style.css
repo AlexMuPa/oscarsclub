@@ -36,6 +36,7 @@ a:hover{
     font-size: 1.3rem;
     background-size:9%;
     color: rgb(28, 28, 28);
+    margin:10px 0 10px 0;
     /*
     margin-left: 17%;
     margin-top: 10px;
@@ -52,14 +53,13 @@ nav ul{
     /*display: inline-block;*/
     display:flex;
     list-style: none;
-    padding-left:0;
     /*float:left;*/
 }
 
 nav ul li{
     font-size: 0.8rem;
     float:left;
-    margin: 10 5px 0 5px;
+    margin: 0 5px 0 5px;
     font-weight: bold;
 
 }
