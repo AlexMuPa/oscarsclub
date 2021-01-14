@@ -16,7 +16,8 @@ header {
 header{
     display:flex;
     flex-direction: column;
-    justify-content:center;
+    items-align:center;
+    justify-content: center;
 }
 a{
     color:rgb(155, 23, 0);
@@ -27,7 +28,7 @@ a:hover{
 }
 
 #enlacecabecera{
-    margin:auto;
+    /*margin:auto;*/
     display: block;
     height:auto;
     background: url(../img/oscarsclub-isologo.png) no-repeat;
