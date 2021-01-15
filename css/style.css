@@ -87,6 +87,7 @@ button{
 button a{
     color: rgb(255,255,255)
 }
+/*
 footer{
     height: 240px;
     background-color: rgb(67, 58, 68);
@@ -98,8 +99,17 @@ footer{
     overflow: auto;
     align-items: center;
 }
+*/
+footer{
+    height: 240px;
+    background-color: rgb(67, 58, 68);
+    color: white;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    display: grid;
+    overflow: auto;
+}
 #primera, #segunda{
-    /*margin: 10px auto 2px auto;*/
+    margin: 10px auto 2px auto;
     margin-top:10px;
 }
 /*
@@ -129,6 +139,9 @@ footer ul li{
 #infofooter{
     font-size: 0.6rem;
     margin-bottom:0;
+    margin-top:10px;
+    margin-left: auto;
+    margin-right:auto;
 }
 #infofooter p{
     margin:0;
@@ -163,7 +176,7 @@ form button{
     border-radius: 4px;
     border:none;
     font-size:0.7rem;
-    width: 100px;
+    width: auto;
     margin: 20px 0 20px 0;
 }
 #oscars{
