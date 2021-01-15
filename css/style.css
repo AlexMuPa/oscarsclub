@@ -32,7 +32,7 @@ a:hover{
     display: block;
     height:auto;
     background: url(../img/oscarsclub-isologo.png) no-repeat;
-    padding-left: 10px;
+    padding-left: 15px;
     font-size: 1.3rem;
     background-size:25px;/*9%*/
     color: rgb(28, 28, 28);
@@ -93,9 +93,11 @@ footer{
     font-family: 'Open Sans', Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content:center;
     overflow: auto;
+}
+#primera, #segona{
+    margin: 10px 0 2px 0;
 }
 /*
 #primera ul{
@@ -120,14 +122,18 @@ footer ul li{
 
 #infofooter{
     font-size: 0.6rem;
+    margin-bottom:0;
 }
+/*
 #infofooter p{
     margin-top:0.1px;
     margin-bottom: 0.1x;
 }
+*/
 #contenidor{
     margin-right:5px;
     margin-left:auto;
+    margin-top:0;
 }
 /*
 #xwegde{
@@ -154,7 +160,7 @@ form button{
     border-radius: 4px;
     border:none;
     font-size:0.7rem;
-    width: 50px;
+    width: 70px;
     margin: 20px 0 20px 0;
 }
 #oscars{
