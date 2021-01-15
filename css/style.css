@@ -108,8 +108,11 @@ footer{
     display: grid;
     overflow: auto;
 }
-#primera, #segunda{
+#primera{
     margin: 20px auto 2px auto;
+}
+#segunda{
+    margin: 10px auto 2px auto;
 }
 /*
 #primera ul{
