@@ -34,7 +34,7 @@ a:hover{
     background: url(../img/oscarsclub-isologo.png) no-repeat;
     padding-left: 10%;
     font-size: 1.3rem;
-    background-size:40px;/*9%*/
+    background-size:20px;/*9%*/
     color: rgb(28, 28, 28);
     margin:10px 0 10px 0;
     /*
@@ -60,12 +60,13 @@ nav ul{
 
 nav ul li{
     font-size: 0.8rem;
-    margin: 0 5px 0 5px;
+    margin: 5px 0 5px 0;
     font-weight: bold;
 
 }
 nav ul li a{
     color: rgb(28,28,28);
+    text-decoration: none;
 }
 nav ul li a:hover{
     color: rgb(28,28,28);
