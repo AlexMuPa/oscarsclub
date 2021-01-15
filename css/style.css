@@ -32,7 +32,7 @@ a:hover{
     display: block;
     height:auto;
     background: url(../img/oscarsclub-isologo.png) no-repeat;
-    padding-left: 20px;
+    padding-left: 25px;
     font-size: 1.3rem;
     background-size:25px;/*9%*/
     color: rgb(28, 28, 28);
@@ -99,7 +99,8 @@ footer{
     align-items: center;
 }
 #primera, #segunda{
-    margin: 10px auto 2px auto;
+    /*margin: 10px auto 2px auto;*/
+    margin-top:10px;
 }
 /*
 #primera ul{
@@ -113,6 +114,9 @@ footer{
     padding-left:0;
 }
 */
+footer ul{
+    margin:0;
+}
 
 footer ul li{
     list-style: none;
@@ -124,7 +128,7 @@ footer ul li{
 
 #infofooter{
     font-size: 0.6rem;
-    margin-bottom:5px auto 0 auto;
+    margin-bottom:0;
 }
 #infofooter p{
     margin:0;
