@@ -48,6 +48,7 @@ nav{
 nav{
     display:flex;
     justify-content: center;
+    align-items: center;
 }
 nav ul{
     /*display: inline-block;*/
@@ -58,7 +59,6 @@ nav ul{
 
 nav ul li{
     font-size: 0.8rem;
-    float:left;
     margin: 0 5px 0 5px;
     font-weight: bold;
 
