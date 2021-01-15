@@ -17,7 +17,7 @@ header{
     display:flex;
     flex-direction: column;
     align-items:center;
-    justify-content: center;
+    /*justify-content: center;*/
 }
 a{
     color:rgb(155, 23, 0);
@@ -36,7 +36,7 @@ a:hover{
     font-size: 1.3rem;
     background-size:20px;/*9%*/
     color: rgb(28, 28, 28);
-    margin:10px 0 10px 0;
+    margin:5px 0 5px 0;
     /*
     margin-left: 17%;
     margin-top: 10px;
@@ -78,7 +78,7 @@ button{
     padding: 0;
     width: 90px;
     height: 30px;
-    margin: 5px 0 5px 0;
+    margin: 0 0 5px 0;
     /*margin: auto;*/
 }
 button a{
@@ -116,19 +116,16 @@ footer ul li{
 
 #infofooter{
     font-size: 0.6rem;
-    margin-left: 0.7%;
-    
 }
 #infofooter p{
-    margin-top:3px;
-    margin-bottom: 3px;
+    margin-top:2px;
+    margin-bottom: 2x;
 }
 #contenidor{
     margin-right:5px;
     margin-left:auto;
 }
 #xwegde{
-
     margin-left:auto;
     margin-top: 10%;
 }
