@@ -109,8 +109,7 @@ footer{
     overflow: auto;
 }
 #primera, #segunda{
-    margin: 10px auto 2px auto;
-    margin-top:10px;
+    margin: 20px auto 2px auto;
 }
 /*
 #primera ul{
@@ -123,11 +122,11 @@ footer{
     display: inline-block;
     padding-left:0;
 }
-*/
+
 footer ul{
     margin:0;
 }
-
+*/
 footer ul li{
     list-style: none;
     font-size: 0.6rem;
