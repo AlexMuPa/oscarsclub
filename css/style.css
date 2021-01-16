@@ -217,28 +217,48 @@ form ul{
     text-align: left;
     font-size: 0.9rem;
 }
-/*
+.club{
+    display:flex;
+    flex-direction: column;
+}
+
 .club figure{
-    /*margin: 0 10px 0 10px;*
-    margin: 20px auto 20px auto;
+    margin:auto;
     height: 280px;
     width: 180px;
     display: table;
     background-color: white;
-    
 }
 #OtraEpoca figure{
     height:310px;
 }
 .club figure img{
-    /*
-    max-width: 100%;
-    max-height: 100%;*
-    display: block;
     width: 100%;
     height: 100%;
+    display: block;
+    margin:0;
 }
-*/
+.club figure img:hover{
+    opacity:0.5;
+}
+.club figure figcaption{
+    display:table-caption;
+    caption-side: bottom;
+    background-color: white;
+    text-align: left;
+    color:rgb(155, 23, 0);
+    font-weight: bold;
+    height: auto;
+    margin:0;
+}
+.club figure figcaption{
+    display:table-caption;
+    caption-side: bottom;
+    background-color: white;
+    text-align: left;
+    font-family:'Open Sans', Helvetica, sans-serif;
+    font-weight: bold;
+}
 .club figure figcaption{
     display:table-caption;
     caption-side: bottom;
