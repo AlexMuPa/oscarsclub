@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href= "css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
     <title>Sesiones oscarsclub 2020</title>
 </head>
 <body>
-    <header>
+    <header id="cabecera">
+        <button><a href="about:blank">Inicar sesión</a></button>
         <a id="enlacecabecera" href="index.html"><span class="negrita">oscars</span><span class="vermell">club</span></a>
         <nav>
             <ul>
@@ -15,10 +19,10 @@
                 <li><a href="sesiones-2020.html">SESIONES 2020</a></li>
             </ul>
         </nav>
-        <button><a>Inicar sesión</a></button>
+        
     </header>
     <main>
-        <h1>Sesiones 2020</h1>
+        <h1 class="titulosesiones">Sesiones 2020</h1>
         <div id="propuestas">
         <p>Los coordinadores de Oscars Club 
             han tenido en cuenta y han valorado las propuestas de los socios de cada club y han seleccionado
@@ -27,129 +31,133 @@
         <p>Si aún no formas parte del Club, inscríbete y disfruta con nosotros del cine.</p>
         </div>
         <div id="sesiones2020">
-            <aside class="menulateral">
-            <h2>Sesiones por Club</h2>
+            <nav class="menulateral">
+            <h2 class="titulosesiones">Sesiones por Club</h2>
             <ul>
-                <li>GALARDONADOS</li>
-                <li>EN EL ESPACIO</li>
-                <li>UNA DOSIS DE INTRIGA</li>
-                <li>DE OTRA ÉPOCA</li>
-                <li>PONGÁMONOS ROMÁNTICOS</li>
-                <li>NACIONAL</li>
+                <li><a href="#Galardonados">GALARDONADOS</a></li>
+                <li><a href="#EnElEspacio">EN EL ESPACIO</a></li>
+                <li><a href="#Intriga">UNA DOSIS DE INTRIGA</a></li>
+                <li><a href="#OtraEpoca">DE OTRA ÉPOCA</a></li>
+                <li><a href="#Romanticas">PONGÁMONOS ROMÁNTICOS</a></li>
+                <li><a href="#Nacional">NACIONAL</a></li>
             </ul>
-            </aside>
+            </nav>
             <article class="sesiones">
-                <h2>···· Galardonados</h2>
+                <h3 class="titulosesiones"><span class="vermell">····</span> Galardonados</h3>
                 <div class="club" id="Galardonados">
                     <figure>
-                        <img src="img/club1-movie1.jpg">
-                        <figcaption>Parasite, 2019</figcaption>
+                        <a href="about:blank"><img src="img/club1-movie1.jpg" alt="Parasite"></a>
+                        <figcaption><a href="about:blank">Parasite, 2019</a></figcaption>
                     </figure>
                     <figure>
-                        <img src="img/club1-movie2.png">
-                        <figcaption>1917, 2019</figcaption>
+                        <a href="about:blank"><img src="img/club1-movie2.png" alt="1917"></a>
+                        <figcaption><a href="about:blank">1917, 2019</a></figcaption>
                     </figure>
                     <figure>
-                        <img src="img/club1-movie3.jpg">
-                        <figcaption>Klaus, 2019</figcaption>
+                        <a href="detalle-sesion.html"><img src="img/club1-movie3.jpg" alt="Klaus"></a>
+                        <figcaption><a href="detalle-sesion.html">Klaus, 2019</a></figcaption>
                     </figure>
                 </div>
-                <h2>···· En el espacio</h2>
+                <h3 class="titulosesiones"><span class="vermell">····</span> En el espacio</h3>
                 <div class="club" id="EnElEspacio">
                     <figure>
-                        <img src="img/club2-movie1.jpg">
-                        <figcaption>The Martian, 2015</figcaption>
+                        <a href="about:blank"><img src="img/club2-movie1.jpg" alt="The Martian"></a>
+                        <figcaption><a href="about:blank">The Martian, 2015</a></figcaption>
                     </figure>
                     <figure>
-                        <img src="img/club2-movie2.jpg">
-                        <figcaption>Interstellar, 2014</figcaption>
+                        <a href="about:blank"><img src="img/club2-movie2.jpg" alt="Interstellar"></a>
+                        <figcaption><a href="about:blank">Interstellar, 2014</a></figcaption>
                     </figure>
                     <figure>
-                        <img src="img/club2-movie3.jpg">
-                        <figcaption>Gravity, 2013</figcaption>
+                        <a href="about:blank"><img src="img/club2-movie3.jpg" alt="Gravity"></a>
+                        <figcaption><a href="about:blank">Gravity, 2013</a></figcaption>
                     </figure>
                 </div>
-                <h2>···· Una dosis de intriga</h2>
+                <h3 class="titulosesiones"><span class="vermell">····</span> Una dosis de intriga</h3>
                 <div class="club" id="Intriga">
                     <figure>
-                        <img src="img/club3-movie1.jpg">
-                        <figcaption>Knives out, 2019</figcaption>
+                        <a href="about:blank"><img src="img/club3-movie1.jpg" alt="Knives Out"></a>
+                        <figcaption><a href="about:blank">Knives out, 2019</a></figcaption>
                     </figure>
                     <figure>
-                        <img src="img/club3-movie2.jpg">
-                        <figcaption>Incepcion, 2010</figcaption>
+                        <a href="about:blank"><img src="img/club3-movie2.jpg" alt="Incepcion"></a>
+                        <figcaption><a href="about:blank">Incepcion, 2010</a></figcaption>
                     </figure>
                     <figure>
-                        <img src="img/club3-movie3.jpg">
-                        <figcaption>Keeping mum, 2005</figcaption>
+                        <a href="about:blank"><img src="img/club3-movie3.jpg" alt="Keeping mum"></a>
+                        <figcaption><a href="about:blank">Keeping mum, 2005</a></figcaption>
                     </figure>
                 </div>
-                <h2>···· De otra época</h2>
+                <h3 class="titulosesiones"><span class="vermell">····</span> De otra época</h3>
                 <div class="club" id="OtraEpoca">
                     <figure>
-                        <img src="img/club4-movie1.jpg">
-                        <figcaption>North by Northwest, 1959 </figcaption>
+                        <a href="about:blank"><img src="img/club4-movie1.jpg" alt="North by Northwest"></a>
+                        <figcaption><a href="about:blank">North by Northwest, 1959</a> </figcaption>
                     </figure>
                     <figure>
-                        <img src="img/club4-movie2.jpg">
-                        <figcaption>A Night at the Opera, 1935 </figcaption>
+                        <a href="about:blank"><img src="img/club4-movie2.jpg" alt="A Night at the Opera"></a>
+                        <figcaption><a href="about:blank">A Night at the Opera, 1935</a> </figcaption>
                     </figure>
                     <figure>
-                        <img src="img/club4-movie3.jpg">
-                        <figcaption>Casablanca, 1942</figcaption>
+                        <a href="about:blank"><img src="img/club4-movie3.jpg" alt="Casablanca"></a>
+                        <figcaption><a href="about:blank">Casablanca, 1942</a></figcaption>
                     </figure>
                 </div>
-                <h2>···· Pongámonos románticos</h2>
+                <h3 class="titulosesiones"><span class="vermell">····</span> Pongámonos románticos</h3>
                 <div class="club" id="Romanticas">
                     <figure>
-                         <img src="img/club5-movie1.jpg">
-                        <figcaption>Love Actually, 2003</figcaption>
+                        <a href="about:blank"><img src="img/club5-movie1.jpg" alt="Love Actually"></a>
+                        <figcaption><a href="about:blank">Love Actually, 2003</a></figcaption>
                     </figure>
                     <figure>
-                        <img src="img/club5-movie2.jpg">
-                        <figcaption>The Princess Bride, 1987</figcaption>
+                        <a href="about:blank"><img src="img/club5-movie2.jpg" alt="The Princess Bride"></a>
+                        <figcaption><a href="about:blank">The Princess Bride, 1987</a></figcaption>
                     </figure>
                     <figure>
-                        <img src="img/club5-movie3.jpg">
-                        <figcaption>Sabrina, 1954</figcaption>
+                        <a href="about:blank"><img src="img/club5-movie3.jpg" alt="Sabrina"></a>
+                        <figcaption><a href="about:blank">Sabrina, 1954</a></figcaption>
                     </figure>
                 </div>
-                <h2>···· Nacional</h2>
+                <h3 class="titulosesiones"><span class="vermell">····</span> Nacional</h3>
                 <div class="club" id="Nacional">
                     <figure>
-                        <img src="img/club6-movie1.jpg">
-                        <figcaption>Las brujas de Zurragamundi, 2013</figcaption>
+                        <a href="about:blank"><img src="img/club6-movie1.jpg" alt="Las brujas de Zurragamundi"></a>
+                        <figcaption><a href="about:blank">Las brujas de Zurragamundi, 2013</a></figcaption>
                     </figure>
                     <figure>
-                        <img src="img/club6-movie2.jpg">
-                        <figcaption>Pa negre, 2010</figcaption>
+                        <a href="about:blank"><img src="img/club6-movie2.jpg" alt="Pa negre"></a>
+                        <figcaption><a href="about:blank">Pa negre, 2010</a></figcaption>
                     </figure>
                     <figure>
-                        <img src="img/club6-movie3.jpg">
-                        <figcaption>Tapas, 2005</figcaption>
+                        <a href="about:blank"><img src="img/club6-movie3.jpg" alt="Tapas"></a>
+                        <figcaption><a href="about:blank">Tapas, 2005</a></figcaption>
                     </figure>
                 </div>
             </article>
         </div>
     </main>
     <footer>
-        <ul>
-            <li>Sobre nosotros</li>
-            <li class="disco">Aviso legal</li>
-            <li class="disco">Política de privacidad</li>
-        </ul>
-
-        <ul id="segunda">
-            <li>Facebook</li>
-            <li class="disco">Twitter</li>
-            <li class="disco">Youtube</li>
-        </ul>
-        <div id="infofooter">
-            <p>© 2020 Alex Muñoz Palos</p>
-            <p>Iconos flaticon.com </p>
-            <p>Imágenes unsplash.com </p>
+        <div id="primera">
+            <ul>
+                <li><a href="about:blank">Sobre nosotros</a></li>
+                <li class="disco"><a href="about:blank">Aviso legal</a></li>
+                <li class="disco"><a href="about:blank">Política de privacidad</a></li>
+            </ul>
         </div>
-        <p id="xwegde">&#8896</p>
+        
+        <div id="segunda">
+            <ul>
+                <li><a href="about:blank">Facebook</a></li>
+                <li class="disco"><a href="about:blank">Twitter</a></li>
+                <li class="disco"><a href="about:blank">Youtube</a></li>
+            </ul>
+        </div>
+        <div id="infofooter">
+            <p>© 2020 Alex Muñoz Palos<br>Iconos <a href="https://www.flaticon.com">flaticon.com</a> <br>Imágenes <a href="https://unsplash.com">unsplash.com</a> </p>
+        </div>
+        <div id="contenidor"> 
+            <p id="xwedge"><a href="#cabecera">&#8896;</a></p>
+        </div>
     </footer>
 </body>
 </html>
