@@ -219,7 +219,7 @@ form ul{
 
 .club figure{
     margin:auto;
-    margin-bottom:30px;
+    margin-bottom:40px;
     height: 280px;
     width: 180px;
     display: table;
@@ -254,8 +254,33 @@ form ul{
 .titulopelicula{
     text-align: left;
 }
+.infopeliculas figure{
+    float: left;
+    margin-right: 20px;
+    shape-outside: circle(50%);
+}
 
+.infopeliculas figure img{
+    border-radius: 50%;
+    height: 120px;
+}
+.infopeliculas figure figcaption{
+    text-align: left;
+    font-style: italic;
+}
 
+h4{
+    margin-bottom:7px;
+    margin-top:7px;
+    border-bottom: solid;
+    border-width: 1px;
+}
+h3{
+    font-size: 1.2rem
+}
+h2{
+    font-size: 1.4rem;
+}
 
 
 
@@ -479,14 +504,7 @@ form button{
 .menulateral{
     grid-area: sidebar;
 }
-/*
-.menulateral ul li a{
-    color: rgb(28, 28, 28);
-}
-.menulateral ul li a:hover{
-    color:rgb(155, 23, 0);
-}
-*/
+
 .menulateral ul{
     list-style: none;
     padding-left: 0;
@@ -559,36 +577,11 @@ aside a{
     margin-top:4px;
     margin-bottom:4px;
 }
-h4{
-    margin-bottom:7px;
-    margin-top:7px;
-    border-bottom: solid;
-    border-width: 1px;
-}
-h3{
-    font-size: 1.2rem
-}
-h2{
-    font-size: 1.4rem;
-}
+
 .infopeliculas{
     grid-area: texto;
 }
 
-.infopeliculas figure{
-    float: left;
-    margin-right: 20px;
-    shape-outside: circle(50%);
-}
-
-.infopeliculas figure img{
-    border-radius: 50%;
-    height: 120px;
-}
-.infopeliculas figure figcaption{
-    text-align: left;
-    font-style: italic;
-}
 
 }
 /*
