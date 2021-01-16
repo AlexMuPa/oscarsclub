@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href= "css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
     <title>Detalles de la sesión</title>
 </head>
 <body>
-    <header>
+    <header id="cabecera">
+        <button><a href="about:blank">Inicar sesión</a></button>
         <a id="enlacecabecera" href="index.html"><span class="negrita">oscars</span><span class="vermell">club</span></a>
         <nav>
             <ul>
@@ -15,20 +19,20 @@
                 <li><a href="sesiones-2020.html">SESIONES 2020</a></li>
             </ul>
         </nav>
-        <button><a>Inicar sesión</a></button>
+        
     </header>
     <main>
-        <aside>Inicio / Sesiones 2020 / Klaus</aside>
-    <h1>Klaus</h1>
+        <aside id="Ariadna"><a href="index.html">Inicio</a> / <a href="sesiones-2020.html">Sesiones 2020</a> / Klaus</aside>
+    <h1 class="titulopelicula">Klaus</h1>
     <section class="pelicula">
         <aside class="fichatecnica">
             <h2>Ficha técnica</h2>
             <div>
-                <h3>Club de cine</h3>
+                <h4>Club de cine</h4>
                 <p>Galardonados</p>
             </div>
             <div>
-                <h3>Datos de la obra</h3>
+                <h4>Datos de la obra</h4>
                 <p><b>Título</b>: Klaus </p>
                 <p><b>Director:</b> Sergio Pablos </p>
                 <p><b>País:</b> España </p>
@@ -37,18 +41,18 @@
                 <p><b>Fecha de estreno:</b> 2019 </p>
             </div>
             <div>
-                <h3>Premios y nominaciones</h3>
+                <h4>Premios y nominaciones</h4>
                 <p><b>2019: Premios Goya</b> (nominación)</p>
                 <p><b>2019: Annie Award for Best Animated Feature</b> (ganado)</p>
                 <p><b>2019: Premios Oscar</b> (nominación)</p>
                 <p><b>2020: European Film Award for Best Animated Feature Film</b> (nominación)</p>
             </div>
             <div>
-                <h3>Coordinadora</h3>
+                <h4>Coordinadora</h4>
                 <p>Paula Castell</p>
             </div>
             <div>
-                <h3>Calendario</h3>
+                <h4>Calendario</h4>
                 <p><b>15 de enero:</b> presentación</p>
                 <p><b>30 de enero:</b> Inicio de la conversación en el foro de la plataforma</p>
                 <p><b>15 de febrero:</b> videochat con Rebeca Luján</p>
@@ -84,34 +88,37 @@
                 década de 2000 había fundado su propio estudio de animación, The SPA Studios, junto con su esposa Marisa Román
             </p>
             <h2>Trailer</h2>
-            <!--
-            <iframe width="450" height ="300" 
-            src="https://www.youtube.com/embed/gTk43yXWins"></iframe>
-            -->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/taE3PwurhYM" frameborder="0" 
+            <figure>
+            <iframe width="510" height="335" src="https://www.youtube.com/embed/taE3PwurhYM" frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen></iframe> 
+            <figcaption>Klaus | Official Trailer | Netflix </figcaption>
+            </figure>
         </article>
     </section>
 </main>
-    <footer>
+<footer>
+    <div id="primera">
         <ul>
-            <li>Sobre nosotros</li>
-            <li class="disco">Aviso legal</li>
-            <li class="disco">Política de privacidad</li>
+            <li><a href="about:blank">Sobre nosotros</a></li>
+            <li class="disco"><a href="about:blank">Aviso legal</a></li>
+            <li class="disco"><a href="about:blank">Política de privacidad</a></li>
         </ul>
-
-        <ul id="segunda">
-            <li>Facebook</li>
-            <li class="disco">Twitter</li>
-            <li class="disco">Youtube</li>
+    </div>
+    
+    <div id="segunda">
+        <ul>
+            <li><a href="about:blank">Facebook</a></li>
+            <li class="disco"><a href="about:blank">Twitter</a></li>
+            <li class="disco"><a href="about:blank">Youtube</a></li>
         </ul>
-        <div id="infofooter">
-            <p>© 2020 Alex Muñoz Palos</p>
-            <p>Iconos flaticon.com </p>
-            <p>Imágenes unsplash.com </p>
-        </div>
-        <p id="xwegde">&#8896</p>
-    </footer>    
+    </div>
+    <div id="infofooter">
+        <p>© 2020 Alex Muñoz Palos<br>Iconos <a href="https://www.flaticon.com">flaticon.com</a> <br>Imágenes <a href="https://unsplash.com">unsplash.com</a> </p>
+    </div>
+    <div id="contenidor"> 
+        <p id="xwedge"><a href="#cabecera">&#8896;</a></p>
+    </div>
+</footer> 
 </body>
 </html>
