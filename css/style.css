@@ -31,7 +31,7 @@ a:hover{
 }
 header a{
     color: rgb(28, 28, 28);
-    font-weigth: bold;
+    font-weight: bold;
 }
 
 nav ul{
@@ -248,6 +248,9 @@ header{
     grid-template-areas: "logo menunav boton";
     height: 90px;
 }
+nav{
+    margin:0;
+}
 nav ul{
     /*display: inline-block;*/
     display:flex;
@@ -273,6 +276,7 @@ header button{
 }
  #enlacecabecera{
     grid-area: logo;
+    margin:0;
 }  
 footer{
     height: 130px;
