@@ -286,7 +286,9 @@ footer{
     grid-template-areas: "informacion redes";
 }
 footer ul{
+    display: inline-block;
     float:left;
+    padding:0;
 }
 #primera{
     grid-area: informacion;
