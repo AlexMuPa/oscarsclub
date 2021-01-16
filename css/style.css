@@ -39,6 +39,9 @@ nav a:hover{
 header nav a:hover{
     font-weight: bold;
 }
+footer a{
+    color: rgb(255,255,255)
+}
 nav{
     font-family: 'Open Sans', Helvetica, sans-serif;
 }
@@ -344,9 +347,7 @@ footer ul .disco{
     font-size: 1.4rem;
     margin:0;
 }
-footer a{
-    color: rgb(255,255,255)
-}
+
 main{
     /*width: 850px;*/
     width:70vw;
