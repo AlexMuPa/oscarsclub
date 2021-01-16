@@ -110,12 +110,7 @@ footer ul li{
     margin:0 5px 5px auto;
 }
 }
-/*
-#xwegde{
-    margin-left:auto;
-    margin-top: 10%;
-}
-*/
+
 /*La mayoría del formato que necesitamos dar es para pantallas grandes. Para pequeñas será poco */
 h1{
     text-align: center;
@@ -251,22 +246,7 @@ form ul{
     height: auto;
     margin:0;
 }
-.club figure figcaption{
-    display:table-caption;
-    caption-side: bottom;
-    background-color: white;
-    text-align: left;
-    font-family:'Open Sans', Helvetica, sans-serif;
-    font-weight: bold;
-}
-.club figure figcaption{
-    display:table-caption;
-    caption-side: bottom;
-    background-color: white;
-    text-align: left;
-    font-family:'Open Sans', Helvetica, sans-serif;
-    font-weight: bold;
-}
+
 .titulosesiones{
     font-family:'Open Sans', Helvetica, sans-serif;
 }
