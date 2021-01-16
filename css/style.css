@@ -332,10 +332,11 @@ figure{
 }
 #unete{
     display:flex;
+    flex: 1;
 }
 #textounete{
-    width: 900px;
-    font-size: 1.3rem;
+    width: 300px;
+    margin-right:auto;
 }
 #formulario{
     margin-left: 70px;/*450*/
@@ -343,27 +344,33 @@ figure{
 }
 
 form{
-    margin-left: 38%;
+    margin-left: auto;
+    width: 250px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 form ul li input{
     width: 250px;
     height: 30px;
-    border-style: none solid none solid;
 }
 form ul{
-    list-style: none;
+    padding:0;
 }
 form ul li{
-    margin: 10px 0 10px 0;
+    margin: 10px 0 0 0;
+    padding:0;
 }
 form #terminos{
-    margin-left:10%;
     font-size:0.5rem;
+    width: 250px;
+    padding:0;
 }
 #formulario form p{
     font-size: 0.5rem;
-    margin-left:12%;
 }
 form button{
     background-color: rgb(155, 23, 0);
@@ -372,9 +379,10 @@ form button{
     border-radius: 4px;
     border:none;
     font-size:0.7rem;
-    margin-left:11.5%;
     margin-top:15px;
     margin-bottom: 25px;
+    margin-right: auto;
+    /*text-align: center;*/
 }
 #clubes{
     display: grid;
