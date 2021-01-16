@@ -289,7 +289,7 @@ footer{
 }
 #primera{
     grid-area: informacion;
-    margin-top:4%
+    margin-top: 10px;
 }
 #primera ul{
     display: inline-block;
@@ -299,22 +299,22 @@ footer{
 #segunda{
     grid-area: redes;
     margin-left: auto;
-    margin-top:4%
+    margin-top: 10px;
 }
 #segunda ul{
     display: inline-block;
 }
 #infofooter{
     font-size: 0.6rem;
-    margin-top:10%;
-    margin-left: 0.7%;
+    margin-top:10px;
+    /*margin-left: 0.7%;*/
     grid-area: informacion;
 }
 #contenidor{
     grid-area: redes;
     margin-right:5px;
     margin-left:auto;
-    margin-top:15%;
+    margin-top:20px;
 }
 main{
     /*width: 850px;*/
