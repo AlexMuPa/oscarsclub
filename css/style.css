@@ -285,14 +285,16 @@ footer{
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "informacion redes";
 }
+footer ul{
+    float:left;
+}
 #primera{
     grid-area: informacion;
     margin-top: 10px;
 }
-#primera ul{
-    display: inline-block;
-    padding-left:0;
-    /*float: left;*/
+    
+footer ul .disco{
+    list-style-type: disc;
 }
 #segunda{
     grid-area: redes;
