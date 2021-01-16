@@ -6,11 +6,9 @@ body{
     font-size: 0.8rem;
 }
 header {
-    
     color: black;
-    height: 150px;
     width: 100%;
-    overflow: auto;
+    /*overflow: auto;*/
     font-family: 'Open Sans', Helvetica, sans-serif;
 }
 header{
@@ -19,7 +17,7 @@ header{
       align-items: center;
       justify-content: center;
       height: 200px;
-      overflow:auto;
+      /*overflow:auto;*/
 }
 a{
     color:rgb(155, 23, 0);
@@ -54,9 +52,9 @@ header button{
     display: block;
     height:auto;
     background: url(../img/oscarsclub-isologo.png) no-repeat;
-    padding-left: 33px;
+    padding-left: 40px;
     font-size: 1.3rem;
-    background-size:35px; /*30px*/
+    background-size:38px; /*30px*/
     background-position: left;
     color: rgb(28, 28, 28);
     /*
