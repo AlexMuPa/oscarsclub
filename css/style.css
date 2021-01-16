@@ -65,19 +65,7 @@ header button{
 button a{
     color: rgb(255,255,255)
 }
-/*
-footer{
-    height: 240px;
-    background-color: rgb(67, 58, 68);
-    color: white;
-    font-family: 'Open Sans', Helvetica, sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    overflow: auto;
-    align-items: center;
-}
-*/
+
 footer {
     height: 300px;
     background-color: rgb(67, 58, 68);
@@ -294,7 +282,9 @@ footer ul{
     grid-area: informacion;
     margin-top: 10px;
 }
-    
+footer ul li{
+    text-align: initial;
+}
 footer ul .disco{
     list-style-type: disc;
 }
