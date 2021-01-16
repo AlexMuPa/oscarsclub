@@ -219,6 +219,7 @@ form ul{
 
 .club figure{
     margin:auto;
+    margin-bottom:30px;
     height: 280px;
     width: 180px;
     display: table;
@@ -504,13 +505,9 @@ form button{
 }
 .club{
     display:flex;
+    flex-direction: row;
 }
-/*
-img{
-    height: 130px;
-    width: 130px;
-}
-*/
+
 .club figure{
     /*margin: 0 10px 0 10px;*/
     margin:auto;
