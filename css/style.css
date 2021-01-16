@@ -127,11 +127,11 @@ footer{
     display: inline-block;
     padding-left:0;
 }
-
+*/
 footer ul{
     margin:0;
+    display:inline-block;
 }
-*/
 footer ul li{
     list-style: none;
     font-size: 0.6rem;
