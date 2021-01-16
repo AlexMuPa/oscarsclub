@@ -23,12 +23,16 @@ header{
 }
 a{
     color:rgb(155, 23, 0);
+    text-decoration: none;
 }
 a:hover{
     color: rgb(155, 23, 0);
     opacity:0.5;
 }
-
+header a{
+    color: rgb(28, 28, 28);
+    font-weigth: bold;
+}
 
 nav ul{
     padding:0;
@@ -249,6 +253,7 @@ nav ul{
     display:flex;
     justify-content: center;
     list-style: none;
+    margin: 0 auto 0 auto;
     margin-left:auto;
     margin-right: auto;
     grid-area: menunav;
