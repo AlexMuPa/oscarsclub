@@ -56,7 +56,7 @@ header button{
     background: url(../img/oscarsclub-isologo.png) no-repeat;
     padding-left: 33px;
     font-size: 1.3rem;
-    background-size:30px;
+    background-size:35px; /*30px*/
     background-position: left;
     color: rgb(28, 28, 28);
     /*
