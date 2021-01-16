@@ -284,6 +284,7 @@ footer ul{
 }
 footer ul li{
     text-align: initial;
+    float: left;
 }
 footer ul .disco{
     list-style-type: disc;
