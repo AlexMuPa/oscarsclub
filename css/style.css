@@ -275,7 +275,6 @@ footer{
 }
 footer ul{
     display: inline-block;
-    float:left;
     padding:0;
 }
 #primera{
@@ -285,6 +284,7 @@ footer ul{
 footer ul li{
     text-align: initial;
     float: left;
+    padding: 5px;
 }
 footer ul .disco{
     list-style-type: disc;
