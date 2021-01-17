@@ -256,17 +256,17 @@ form ul{
 .titulopelicula{
     text-align: left;
 }
-.infopeliculas figure{
+.infopeliculas #circular{
     float: left;
     margin-right: 20px;
     shape-outside: circle(50%);
 }
 
-.infopeliculas figure img{
+.infopeliculas #circular img{
     border-radius: 50%;
     height: 120px;
 }
-.infopeliculas figure figcaption{
+.infopeliculas #circular figcaption{
     text-align: left;
     font-style: italic;
 }
@@ -283,7 +283,7 @@ h3{
 h2{
     font-size: 1.4rem;
 }
-/*
+
 .infopeliculas figure{
     display:block;
     width:auto;
@@ -294,7 +294,7 @@ iframe{
     max-width: 100%;
     max-height: 100%;
 }
-*/
+
 /*------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 800px){
 header{
