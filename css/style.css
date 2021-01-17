@@ -77,7 +77,7 @@ header button{
 
 @media screen and (max-width: 850px){
 footer {
-    height: 300px;
+    height: 400px;
     background-color: rgb(67, 58, 68);
     color: white;
     font-family: 'Open Sans', Helvetica, sans-serif;
@@ -254,6 +254,7 @@ form ul{
     font-weight: bold;
     height: auto;
     margin:auto;
+    margin-bottom: 30px;
 }
 
 .titulosesiones{
@@ -410,8 +411,8 @@ main{
     justify-content: center;
 }
 #funcionamiento figure{
-    max-width: 15%;
-    max-height: 15%;
+    max-width: 10%;
+    max-height: 10%;
 }
 #funcionamiento figure img{
     max-width: 100%;
