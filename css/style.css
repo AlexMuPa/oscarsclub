@@ -182,8 +182,6 @@ form ul{
 }
 #clubes figure{
     display: table;
-    /*min-height: 80px;*/
-    /*min-width: auto;*/
     max-width: auto;
     max-height: auto;
 }
@@ -196,7 +194,6 @@ form ul{
     display: table-caption;
     caption-side: bottom;
     text-align: left;
-    /*width: 100%;*/
 }
 #clubes figure figcaption a{
     display: block;
