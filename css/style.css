@@ -2,22 +2,19 @@ body{
     background-color: rgb(232, 232, 232);
     color:rgb(28, 28, 28);
     font-family: 'Noto Serif', Helvetica, sans-serif;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 header {
-    color: black;
+    color:rgb(28, 28, 28);
     width: 100%;
-    /*overflow: auto;*/
     font-family: 'Open Sans', Helvetica, sans-serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
 }
-header{
-      display:flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 200px;
-      /*overflow:auto;*/
-}
+
 a{
     color:rgb(155, 23, 0);
     text-decoration: none;
@@ -30,17 +27,23 @@ nav a{
     color: rgb(28, 28, 28);
 }
 header nav a{
-    font-weight: bold;
+    font-weight: 700;
 }
 nav a:hover{
     color: rgb(28, 28, 28);
     opacity: 0.5;
 }
-header nav a:hover{
-    font-weight: bold;
-}
 footer a{
     color: rgb(255,255,255)
+}
+button a{
+    color: rgb(255,255,255)
+}
+button a:hover{
+    color: rgb(28, 28, 28); 
+}
+header nav a:hover{
+    font-weight: bold;
 }
 nav{
     font-family: 'Open Sans', Helvetica, sans-serif;
@@ -57,7 +60,6 @@ header nav ul li{
 header button{
     color: white;
     background-color: rgb(155, 23, 0);
-    grid-area: boton;
     width: 100px;
     height: 40px;
     margin: 0 0 10px 0;
@@ -69,18 +71,11 @@ header button{
     padding-left: 50px;
     font-size: 1.4rem;
     background-size:40px; /*30px*/
-    background-position-x: left;
     background-position: left top;
     color: rgb(28, 28, 28);
-    /*
-    margin-left: 17%;
-    margin-top: 10px;
-    */
 }
-button a{
-    color: rgb(255,255,255)
-}
-@media screen and (max-width: 800px){
+
+@media screen and (max-width: 850px){
 footer {
     height: 300px;
     background-color: rgb(67, 58, 68);
@@ -90,8 +85,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top:30px;
-    overflow: auto;
 }
 #primera{
     margin-top: 30px;
@@ -113,18 +106,33 @@ footer ul li{
 }
 }
 
-/*La mayoría del formato que necesitamos dar es para pantallas grandes. Para pequeñas será poco */
 h1{
     text-align: center;
 }
-
+h3{
+    font-size: 1.2rem
+}
+h2{
+    font-size: 1.4rem;
+}
+/* PÁGINA DE INICIO*/
 #funcionamiento{
     display:flex;
     align-items: center;
     flex-direction: column;
 }
+#funcionamiento figure{
+    max-width: 50%;
+    max-height: 50%;
+}
+#funcionamiento figure img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
 figure{
     text-align: center;
+    margin: 0 40px 0 40px;
 }
 form{
     font-family: 'Open Sans', Helvetica, sans-serif;
@@ -143,17 +151,9 @@ form button{
 #oscars{
     text-align: center;
 }
-#funcionamiento figure{
-    max-width: 50%;
-    max-height: 50%;
-}
-#funcionamiento figure img{
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
-}
+
 #textounete{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 form ul li{
     padding-left:0;
@@ -172,10 +172,13 @@ form ul{
 #formulario form p{
     font-size: 0.5rem;
 }
+
+/*CLUBES TEMÁTICOS*/
 #clubes{
     display:flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 #clubes figure{
     display: table;
@@ -204,6 +207,9 @@ form ul{
     font-size:1.1rem;
     margin: 5px 0 5px 0;
 }
+
+/*SESIONES 2020*/
+
 .menulateral ul{
     list-style: none;
     padding-left: 0;
@@ -221,7 +227,7 @@ form ul{
 
 .club figure{
     margin:auto;
-    margin-bottom:40px;
+    margin-bottom: 10px;
     height: 280px;
     width: 180px;
     display: table;
@@ -253,50 +259,56 @@ form ul{
 .titulosesiones{
     font-family:'Open Sans', Helvetica, sans-serif;
 }
+
+/*DETALLE DE SESION*/
 .titulopelicula{
     text-align: left;
 }
-.infopeliculas #circular{
-    float: left;
-    margin-right: 20px;
-    shape-outside: circle(50%);
+
+#Ariadna{
+    font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
-.infopeliculas #circular img{
-    border-radius: 50%;
-    height: 120px;
+.noactiu{
+    opacity: 0.5;
 }
-.infopeliculas #circular figcaption{
-    text-align: left;
-    font-style: italic;
+.fichatecnica p{
+    margin-top:4px;
+    margin-bottom:4px;
 }
-
 h4{
     margin-bottom:7px;
     margin-top:7px;
     border-bottom: solid;
     border-width: 1px;
 }
-h3{
-    font-size: 1.2rem
-}
-h2{
-    font-size: 1.4rem;
+.infopeliculas .circular{
+    float: left;
+    margin-right: 20px;
+    shape-outside: circle(50%);
 }
 
+.infopeliculas .circular img{
+    border-radius: 50%;
+    height: 120px;
+}
+.infopeliculas figure figcaption{
+    text-align: left;
+    font-style: italic;
+}
 .infopeliculas figure{
     display:block;
     width:auto;
     height:auto;
 }
-iframe{
+figure iframe{
     display: block;
     max-width: 100%;
     max-height: 100%;
 }
-
 /*------------------------------------------------------------------------------------------------------------------------*/
-@media screen and (min-width: 800px){
+
+@media screen and (min-width: 850px){
 header{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -307,7 +319,6 @@ header nav{
     margin:0;
 }
 header nav ul{
-    /*display: inline-block;*/
     display:flex;
     justify-content: center;
     list-style: none;
@@ -315,15 +326,11 @@ header nav ul{
     margin-left:auto;
     margin-right: auto;
     grid-area: menunav;
-    /*float:left;*/
 }
 header nav ul li{
     padding: 5px;
 }
 header button{
-    color: white;
-    background-color: rgb(155, 23, 0);
-    padding: 0;
     grid-area: boton;
     width: 30%;
     height: 40%;
@@ -386,25 +393,23 @@ footer ul .disco{
 }
 
 main{
-    /*width: 850px;*/
-    width:70vw;
+    width:75vw;
     margin:auto;
 }
 
+/*ÍNDEX*/
 #oscars{
     text-align: center;
     margin:0 100px 0 100px;
 }
 #funcionamiento{
-    display: flex;
     flex: 1;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 #funcionamiento figure{
-    /*min-width: 130px;*/
-    /*min-height: 130px;*/
     max-width: 15%;
     max-height: 15%;
 }
@@ -413,9 +418,7 @@ main{
     max-height: 100%;
     display: block;
 }
-figure{
-    margin: 0 40px 0 40px;
-}
+
 #unete{
     display:flex;
     flex: 1;
@@ -425,7 +428,7 @@ figure{
     margin-right:auto;
 }
 #formulario{
-    margin-left: 70px;/*450*/
+    margin-left: 70px;
 
 }
 
@@ -443,33 +446,22 @@ form ul li input{
     width: 250px;
     height: 30px;
 }
-form ul{
-    padding:0;
-}
+
 form ul li{
     margin: 10px 0 0 0;
     padding:0;
 }
+
 form #terminos{
     font-size:0.5rem;
     width: 250px;
     padding:0;
 }
-#formulario form p{
-    font-size: 0.5rem;
-}
+
 form button{
-    background-color: rgb(155, 23, 0);
-    color:rgb(252,252,252);
-    padding: 13px 22px;
-    border-radius: 4px;
-    border:none;
-    font-size:0.7rem;
-    margin-top:15px;
-    margin-bottom: 25px;
     margin-right: auto;
-    /*text-align: center;*/
 }
+/*CLUBES TEMÁTICOS */
 #clubes{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -477,31 +469,12 @@ form button{
 }
 #clubes figure{
     display: table;
-    /*min-height: 130px;*/
-    /*min-width: 180px;*/
     max-height:100%;
     max-width:100%;
 }
-#clubes figure img{
-    max-width: 100%;
-    max-height:100%;
-    display:block;
-}
-#clubes figcaption{
-    display: table-caption;
-    caption-side: bottom;
-    text-align: left;
-    /*width: 100%;*/
-}
-#clubes figure figcaption a{
-    display: block;
-    margin:10px 0 10px 0;
-    color: rgb(155, 23, 0);
-}
-.tituloclubes{
-    font-size:1.1rem;
-    margin: 5px 0 5px 0;
-}
+
+/*SESIONES 2020*/
+
 #sesiones2020{
     display: grid;
     grid-template-areas: "sidebar sesions";
@@ -516,16 +489,6 @@ form button{
     grid-area: sidebar;
 }
 
-.menulateral ul{
-    list-style: none;
-    padding-left: 0;
-    display: block;
-}
-.menulateral ul li{
-    margin: 5px 0 5px 0;
-    text-align: left;
-    font-size: 0.9rem;
-}
 #sesiones2020 article{
     grid-area:sesions;
 }
@@ -533,12 +496,10 @@ form button{
     margin-top: 40px;
 }
 .club{
-    display:flex;
     flex-direction: row;
 }
 
 .club figure{
-    /*margin: 0 10px 0 10px;*/
     margin:auto;
     height: 280px;
     width: 180px;
@@ -554,59 +515,41 @@ form button{
     display: block;
     margin:0;
 }
-.club figure img:hover{
-    opacity:0.5;
-}
+
 .club figure figcaption{
-    display:table-caption;
-    caption-side: bottom;
-    background-color: white;
-    text-align: left;
-    color:rgb(155, 23, 0);
-    font-weight: bold;
-    height: auto;
     margin:0;
 }
-#Ariadna{
-    font-family: 'Open Sans', Helvetica, sans-serif;
-}
-iframe{
-    /*width="510" height="335"*/
-    min-width: 510px;
-    min-height: 335px;
-    max-width: 100%;
-    max-height: 100%;
-}
+
 /*DETALLE DE SESION */
 .pelicula{
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1.5fr;
     grid-template-areas: "datos texto";
     grid-gap: 40px;
 }
 .fichatecnica{
     grid-area: datos;
 }
-.fichatecnica p{
-    margin-top:4px;
-    margin-bottom:4px;
-}
+
 
 .infopeliculas{
     grid-area: texto;
 }
-
+iframe{
+    min-width: 510px;
+    min-height: 335px;
+    max-width: 100%;
+    max-height: 100%;
+}
 
 }
-/*
-#funcionamiento img{
-    display: block;
-    margin: 0 20px 0 20px;
-}
-*/
+
 .vermell{
     color: rgb(155, 23, 0);
 }
 .negrita{
     font-weight: bold;
+}
+.cursiva{
+    font-style: italic;
 }
