@@ -182,8 +182,8 @@ form ul{
 }
 #clubes figure{
     display: table;
-    max-width: auto;
-    max-height: auto;
+    width: auto;
+    height: auto;
 }
 #clubes figure img{
     max-width: 100%;
